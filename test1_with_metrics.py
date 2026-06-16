@@ -57,7 +57,7 @@ import shap
 # CONFIG
 # =========================
 RANDOM_STATE = 42
-CSV_PATH = r"WA_Fn-UseC_-HR-Employee-Attrition.csv"
+CSV_PATH = r"dataset.csv"
 
 # Decision constraint: maximize Recall, keep Precision >= MIN_PRECISION if possible
 MIN_PRECISION = 0.40
